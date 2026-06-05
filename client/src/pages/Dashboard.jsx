@@ -30,7 +30,7 @@ function Dashboard() {
       }
 
       const res = await axios.get(
-        "http://localhost:5000/api/transactions",
+        "https://expense-tracker-ix0o.onrender.com/api/transactions",
         {
           headers: {
             Authorization: `Bearer ${token}`,

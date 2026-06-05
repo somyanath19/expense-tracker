@@ -20,7 +20,7 @@ function TransactionList() {
 
           const res =
             await axios.get(
-              `http://localhost:5000/api/transactions/${user.id}`
+              `https://expense-tracker-ix0o.onrender.com/api/transactions/${user.id}`
             );
 
           setTransactions(res.data);

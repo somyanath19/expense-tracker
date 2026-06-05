@@ -46,7 +46,7 @@ function TransactionForm({ onSuccess }) {
       const token = localStorage.getItem("token");
 
 const res = await axios.post(
-  "http://localhost:5000/api/transactions",
+  "https://expense-tracker-ix0o.onrender.com/api/transactions",
   payload,
   {
     headers: {
