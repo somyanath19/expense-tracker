@@ -1,0 +1,61 @@
+.transaction-card{
+  background:#0f172a;
+  border-radius:20px;
+  padding:25px;
+  margin-top:25px;
+  box-shadow:0 4px 20px rgba(0,0,0,0.25);
+}
+
+.transaction-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:20px;
+}
+
+.transaction-header h2{
+  color:white;
+  font-size:22px;
+}
+
+.transaction-header button{
+  background:#7c3aed;
+  color:white;
+  border:none;
+  padding:8px 16px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+.transaction-item{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px;
+  border-radius:12px;
+  background:#1e293b;
+  margin-bottom:12px;
+  transition:0.3s;
+}
+
+.transaction-item:hover{
+  transform:translateY(-2px);
+}
+
+.transaction-item h4{
+  color:white;
+  margin-bottom:4px;
+}
+
+.transaction-item p{
+  color:#94a3b8;
+  font-size:14px;
+}
+
+.green{
+  color:#22c55e;
+}
+
+.red{
+  color:#ef4444;
+}

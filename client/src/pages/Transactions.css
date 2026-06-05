@@ -1,0 +1,81 @@
+.tx-layout{
+  display:flex;
+  min-height:100vh;
+  background:linear-gradient(135deg,#050816,#0b1220);
+}
+
+.tx-content{
+  flex:1;
+  padding:30px;
+}
+
+.tx-title{
+  color:white;
+  margin:20px 0;
+}
+
+.tx-controls{
+  display:flex;
+  gap:15px;
+  margin-bottom:20px;
+}
+
+.tx-controls input,
+.tx-controls select{
+  padding:12px;
+  border:none;
+  border-radius:10px;
+  outline:none;
+}
+
+.tx-controls input{
+  flex:1;
+}
+
+.tx-table{
+  background:rgba(255,255,255,0.06);
+  backdrop-filter:blur(12px);
+  padding:20px;
+  border-radius:16px;
+  overflow-x:auto;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  color:white;
+}
+
+th{
+  text-align:left;
+  padding:12px;
+  color:#94a3b8;
+}
+
+td{
+  padding:12px;
+  border-top:1px solid rgba(255,255,255,0.1);
+}
+
+.income{
+  color:#22c55e;
+  font-weight:600;
+}
+
+.expense{
+  color:#ef4444;
+  font-weight:600;
+}
+
+.delete-btn{
+  background:#ef4444;
+  border:none;
+  color:white;
+  padding:6px 10px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.delete-btn:hover{
+  background:#dc2626;
+}

@@ -1,0 +1,12 @@
+.chart-card{
+ background:#0f172a;
+ padding:25px;
+ border-radius:20px;
+ color:white;
+}
+
+.chart-wrapper{
+ width:350px;
+ margin:auto;
+ margin-top:20px;
+}

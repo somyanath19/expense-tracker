@@ -1,0 +1,178 @@
+.dashboard{
+  display:flex;
+  background: linear-gradient(135deg, #050816, #0b1220);
+  min-height:100vh;
+  color:white;
+}
+.dashboard-content{
+  flex:1;
+  padding:32px;
+}
+
+.cards-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+  margin-top:30px;
+}
+
+.cards-grid > div{
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(12px);
+  border-radius:16px;
+  padding:20px;
+  transition:0.3s;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.cards-grid > div:hover{
+  transform: translateY(-5px);
+}
+
+.middle-grid{
+  display:grid;
+  grid-template-columns:1.4fr 1fr;
+  gap:22px;
+  margin-top:30px;
+}
+
+.middle-grid > div{
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(12px);
+  border-radius:16px;
+  padding:20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.transaction-list{
+  margin-top:30px;
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(12px);
+  border-radius:16px;
+  padding:20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+@media(max-width:1000px){
+
+  .cards-grid{
+    grid-template-columns:1fr;
+  }
+
+  .middle-grid{
+    grid-template-columns:1fr;
+  }
+
+}
+
+.welcome-section{
+  margin-top:20px;
+  margin-bottom:25px;
+}
+
+.welcome-section h2{
+  color:white;
+  font-size:28px;
+}
+
+.welcome-section p{
+  color:#94a3b8;
+  margin-top:6px;
+}
+
+.cards-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px;
+}
+
+.budget-card{
+  margin-top:25px;
+  background:#0f172a;
+  padding:20px;
+  border-radius:16px;
+  border:1px solid rgba(255,255,255,.08);
+}
+
+.budget-card h3{
+  color:white;
+  margin-bottom:15px;
+}
+
+.progress-bar{
+  width:100%;
+  height:12px;
+  background:#1e293b;
+  border-radius:10px;
+  overflow:hidden;
+}
+
+.progress-fill{
+  height:100%;
+  background:linear-gradient(
+    90deg,
+    #8b5cf6,
+    #3b82f6
+  );
+}
+
+.budget-card p{
+  color:#94a3b8;
+  margin-top:12px;
+}
+
+@media(max-width:1200px){
+
+  .cards-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+}
+
+@media(max-width:700px){
+
+  .cards-grid{
+    grid-template-columns:1fr;
+  }
+
+}
+
+/* ===== DATE ===== */
+
+.welcome-section p:last-child{
+  color:#64748b;
+  font-size:14px;
+  margin-top:8px;
+}
+
+/* ===== FINANCIAL TIP ===== */
+
+.motivation-card{
+  margin-top:25px;
+  background:rgba(255,255,255,0.06);
+  backdrop-filter:blur(12px);
+  border-radius:16px;
+  padding:20px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+  border:1px solid rgba(255,255,255,0.08);
+}
+
+.motivation-card h3{
+  color:white;
+  margin-bottom:10px;
+}
+
+.motivation-card p{
+  color:#94a3b8;
+  line-height:1.6;
+}
+
+/* ===== RECENT TRANSACTION TITLE ===== */
+
+.section-title{
+  color:white;
+  margin-top:25px;
+  margin-bottom:15px;
+  font-size:22px;
+  font-weight:600;
+}

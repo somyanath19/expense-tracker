@@ -1,0 +1,36 @@
+.sidebar{
+ width:260px;
+ min-height:100vh;
+ background:#0f172a;
+ padding:30px 20px;
+ color:white;
+}
+
+.sidebar h2{
+ font-size:30px;
+ margin-bottom:50px;
+ color:#7c3aed;
+}
+
+.sidebar ul{
+ list-style:none;
+}
+
+.sidebar li{
+ display:flex;
+ align-items:center;
+ gap:15px;
+ padding:15px;
+ margin:15px 0;
+ border-radius:12px;
+ cursor:pointer;
+ transition:0.3s;
+}
+
+.sidebar li:hover{
+ background:linear-gradient(135deg,#7c3aed,#06b6d4);
+}
+
+.active{
+ background:linear-gradient(135deg,#7c3aed,#06b6d4);
+}

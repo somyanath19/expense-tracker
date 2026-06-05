@@ -1,0 +1,58 @@
+.balance-card{
+  padding:30px;
+  border-radius:20px;
+  color:white;
+  transition:0.3s;
+  backdrop-filter:blur(12px);
+  box-shadow:0 10px 30px rgba(0,0,0,0.3);
+  position:relative;
+  overflow:hidden;
+}
+
+.balance-card:hover{
+  transform:translateY(-8px) scale(1.02);
+}
+
+.balance-card::before{
+  content:"";
+  position:absolute;
+  width:180px;
+  height:180px;
+  background:rgba(255,255,255,0.08);
+  border-radius:50%;
+  top:-50px;
+  right:-50px;
+}
+
+.balance-card p{
+  font-size:18px;
+  opacity:0.9;
+}
+
+.balance-card h1{
+  margin:15px 0;
+  font-size:42px;
+}
+
+.balance-card span{
+  font-size:14px;
+  opacity:0.8;
+}
+
+.card-icon{
+  font-size:30px;
+  margin-bottom:15px;
+  opacity:0.9;
+}
+
+.purple{
+  background:linear-gradient(135deg,#7c3aed,#8b5cf6);
+}
+
+.green{
+  background:linear-gradient(135deg,#16a34a,#22c55e);
+}
+
+.red{
+  background:linear-gradient(135deg,#dc2626,#ef4444);
+}
